@@ -3,10 +3,8 @@
 #no need to use $ when declaring variables
 #do not put a space surrounding =
 sum=0
-start=1
-end=1000
 
-for i in `seq 1 1000`;
+for i in `seq 1 999`;
 do 
    #$(()) is used to perform arithmetic
    # the spaces are important in [ ] 
