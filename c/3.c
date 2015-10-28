@@ -8,7 +8,7 @@ int main(){
 
    for(i = 2L; i < sqrtn; i++){
       if(num % i == 0){
-         num = num / i;
+         while (num % i == 0) num = num / i;
          biggestFactor = i > biggestFactor ? i : biggestFactor;
          i = 2L;
       }
