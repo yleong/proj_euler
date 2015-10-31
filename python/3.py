@@ -72,5 +72,6 @@ def biggestInSet(myset):
 
 def mymax(a, b):
     return a if a > b else b
+
 if __name__ == "__main__":
     main()
